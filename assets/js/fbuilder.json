@@ -1,0 +1,136 @@
+{
+  "fonts": [
+    {
+      "family": "Open Sans",
+      "classname": "font-open-sans"
+    },
+    {
+      "family": "Oswald",
+      "classname": "font-oswald"
+    },
+    {
+      "family": "PT Sans",
+      "classname": "font-pt-sans"
+    },
+    {
+      "family": "Raleway",
+      "classname": "font-raleway"
+    },
+    {
+      "family": "Droid Serif",
+      "classname": "font-droid-serif"
+    },
+    {
+      "family": "Montserrat",
+      "classname": "font-montserrat"
+    },
+    {
+      "family": "Roboto Slab",
+      "classname": "font-roboto-slab"
+    },
+    {
+      "family": "Lora",
+      "classname": "font-lora"
+    },
+    {
+      "family": "Lobster",
+      "classname": "font-lobster"
+    },
+    {
+      "family": "Indie Flower",
+      "classname": "font-indie-flower"
+    },
+    {
+      "family": "Playfair Display",
+      "classname": "font-playfair-display"
+    },
+    {
+      "family": "Pacifico",
+      "classname": "font-pacifico"
+    },
+    {
+      "family": "Dancing Script",
+      "classname": "font-dancing-script"
+    },
+    {
+      "family": "Coming Soon",
+      "classname": "font-coming-soon"
+    },
+    {
+      "family": "Josefin Slab",
+      "classname": "font-josefin-slab"
+    },
+    {
+      "family": "Philosopher",
+      "classname": "font-philosopher"
+    },
+    {
+      "family": "Old Standard TT",
+      "classname": "font-old-standard-tt"
+    },
+    {
+      "family": "Orbitron",
+      "classname": "font-orbitron"
+    },
+    {
+      "family": "Chewy",
+      "classname": "font-chewy"
+    },
+    {
+      "family": "Varela",
+      "classname": "font-varela"
+    },
+    {
+      "family": "Economica",
+      "classname": "font-economica"
+    },
+    {
+      "family": "Yellowtail",
+      "classname": "font-yellowtail"
+    },
+    {
+      "family": "Comfortaa",
+      "classname": "font-comfortaa"
+    },
+    {
+      "family": "Quattrocento",
+      "classname": "font-quattrocento"
+    },
+    {
+      "family": "Sorts Mill Goudy",
+      "classname": "font-sorts-mill-goudy"
+    },
+    {
+      "family": "Limelight",
+      "classname": "font-limelight"
+    },
+    {
+      "family": "Jockey One",
+      "classname": "font-jockey-one"
+    },
+    {
+      "family": "Monoton",
+      "classname": "font-monoton"
+    },
+    {
+      "family": "Nilland",
+      "classname": "font-nilland-paint"
+    },
+    {
+      "family": "Roboto",
+      "classname": "font-roboto-regular"
+    },
+    {
+      "family": "Roboto Condensed",
+      "classname": "font-roboto-condensed"
+    },
+    {
+      "family": "Roboto Mono",
+      "classname": "font-roboto-mono"
+    },
+    {
+      "family": "Play Fair Display",
+      "classname": "font-playfair"
+    }
+  ]
+}

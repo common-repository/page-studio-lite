@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PageStudio Changelog. All Versions</title>
+
+    <style>
+        body,html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .container {
+            width: 100%;
+            display: table;
+            height: 100%;
+        }
+
+        .container .side, .container .changelogcontent {
+            display: table-cell;
+        }
+
+        .container .side {
+            width: 320px;
+            background: #353535;
+            text-align: center;
+        }
+
+        .container .side .wrapper {
+            padding-top: 30px;
+        }
+
+        .container .side .wrapper ul {
+            padding: 0;
+            margin: 0;
+            text-align: left;
+            list-style: none;
+        }
+
+        .container .side .wrapper ul li {
+            border-top: 1px #212121 solid;
+        }
+
+        .container .side .wrapper ul li a {
+            font-family: "Helvetica Neue", sans-serif;
+            text-decoration: none;
+            display: block;
+            padding: 10px 20px;
+            background: transparent;
+            color: #8b41b1;
+        }
+
+        .container .side .wrapper ul li a:hover {
+            background: #8b41b1;
+            color: #FFFFFF;
+        }
+
+        .container .changelogcontent {
+            border-left: 2px #cccccc solid;
+            vertical-align: top;
+            color: #313131;
+        }
+
+        .container .changelogcontent a {
+            text-decoration: none;
+            color: #8b41b1;
+        }
+
+        .container .changelogcontent a:hover {
+            text-decoration: underline;
+        }
+
+        .container .changelogcontent .wrapper {
+            padding: 20px;
+        }
+
+        .container .changelogcontent .wrapper h1 {
+            font-family: "Helvetica Neue", sans-serif;
+            border-bottom: 1px #c6c6c6 solid;
+        }
+
+        .container .changelogcontent .wrapper h2 {
+            font-family: "Helvetica Neue", sans-serif;
+            font-size: 20px;
+        }
+
+        .container .changelogcontent .wrapper ul {
+            font-family: "Helvetica Neue", sans-serif;
+            font-size: 13px;
+        }
+
+        .container .changelogcontent .wrapper ul li {
+            line-height: 20px;
+        }
+
+        .box-base {
+            background: #CCCCCC;
+            padding: 2px 10px;
+            color: #FFFFFF;
+            font-weight: bold;
+            border-radius: 3px;
+            text-transform: uppercase;
+            font-size: 11px;
+        }
+
+        .box-base.fix {
+            background: #148e20;
+        }
+
+        .box-base.new {
+            background: #4a6fe8;
+        }
+
+        .box-base.changed {
+            background: yellowgreen;
+        }
+
+        .box-base.new {
+            background: #bd61c2;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="side">
+            <div class="wrapper">
+                <img src="assets/img/changeloglogo.png">
+                <ul>
+                    <li><a href="#v106">1.0.6</a></li>
+                    <li><a href="#v105">1.0.5</a></li>
+                    <li><a href="#v1041">1.0.4.1 / 1.0.4.2</a></li>
+                    <li><a href="#v104">1.0.4</a></li>
+                    <li><a href="#v103">1.0.3</a></li>
+                    <li><a href="#v1021">1.0.2.1</a></li>
+                    <li><a href="#v102">1.0.2</a></li>
+                    <li><a href="#v1011">1.0.1.1</a></li>
+                    <li><a href="#v101">1.0.1</a></li>
+                    <li><a href="#v100">1.0.0</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="changelogcontent">
+            <div class="wrapper">
+                <h1>Change Log Summary</h1>
+                <h2><a href="#" id="v106">#</a> Version 1.0.6</h2>
+                <ul>
+                    <li><span class="box-base new">new</span> Now you can edit any post types with some limits. Note that we cant guarantee 100% compatibility with post type from third-party applications.</li>
+                    <li><span class="box-base new">new</span> Editor with special sizes, also a resize component to change the iframe size.</li>
+                    <li><span class="box-base new">new</span> Added a new way to access the editor.</li>
+                    <li><span class="box-base new">new</span> Added a new template system to your editor.</li>
+                    <li><span class="box-base changed">changed</span> Added a default image for componentes with null or empty icons.</li>
+                    <li><span class="box-base changed">changed</span> Improved the responsivity system to a better one.</li>
+                    <li><span class="box-base changed">changed</span> Changed the Editor button to a better one.</li>
+                    <li><span class="box-base changed">changed</span> Changed the execution order of the custom css to improve performance.</li>
+                    <li><span class="box-base changed">changed</span> CSS Tweaked for more editor performance.</li>
+                    <li><span class="box-base changed">changed</span> Now the "use a template" of the welcome message open the template window instead of predefined elements.</li>
+                    <li><span class="box-base changed">changed</span> New option added to the welcome message to add some component or predefined element.</li>
+                    <li><span class="box-base changed">changed</span> All the row system was remade and improved, now you can create your own rows using your own rules.</li>
+                    <li><span class="box-base changed">changed</span> To avoid problem with the color value of all elements, the field now use a "color mask".</li>
+                    <li><span class="box-base changed">changed</span> All Color system was remade and improved.</li>
+                    <li><span class="box-base changed">changed</span> Now the gallery will display random images by default.</li>
+                    <li><span class="box-base fix">fix</span> Fixed the right align bug with the grid in some sizes.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug where non-signed pages returns a javascript error and blocks the editor.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug when the user try to edit some column.</li>
+                    <li><span class="box-base fix">fix</span> Fixed an security issue with the User Role system, blocking the administrator from use the PageStudio.</li>
+                    <li><span class="box-base fix">fix</span> Fixed some portuguese translations.</li>
+                    <li><span class="box-base fix">fix</span> Fixed the bug of the Heading component not working.</li>
+                    <li><span class="box-base fix">fix</span> Fixed the Fatal error: Class 'Checkcms\Internal\PostType' not found error.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug that makes the page loose some styles after the re-edit.</li>
+                    <li><span class="box-base fix">fix</span> Fixed several performance bugs.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a problem of the image not aligning properly.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a rare problem with the editor handling with cloned objects using the same ID.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a rare problem when the editor not loading.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a rare problem when after editing the same object multiple times, the editor crashes.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a problem of the system not being able to remove the new row line when the page is clean.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a problem of some elements loosing their special properties after cloning.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug with the scrollbars going crazy inside the editor.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug with the grid numbers, now they are correct.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug when you clone some row and appears in the wrong place.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug where repeated colors are being rendered by the color history.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug where the content colors was not being correctly rendered by the editor, or rendering with missed colors.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug where the color not being set correctly.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a problem with the vimeo component not loading the movie.</li>
+                    <li><span class="box-base fix">fix</span> Fixed the Notice: Undefined index: data-media, when trying to save the gallery with the default images.</li>
+                    <li><span class="box-base fix">fix</span> Fixed special tags not appearing when using the paragraph.</li>
+                </ul>
+                <h2><a href="#" id="v105">#</a> Version 1.0.5 (Released on 01/18/2017)</h2>
+                <ul>
+                    <li><span class="box-base changed">changed</span> Improved the component Video with more options and controls.</li>
+                    <li><span class="box-base changed">changed</span> Improved some internal code for package execution.</li>
+                    <li><span class="box-base changed">changed</span> Increased the editor performance.</li>
+                    <li><span class="box-base changed">changed</span> Compressed some of the editor images to increase speed.</li>
+                    <li><span class="box-base changed">changed</span> Removed the option of changing the tag of all elements that depends of the typography (except the heading).</li>
+                    <li><span class="box-base changed">changed</span> Improved the cloning page feature, now the system will change the content of your page without the need of save or publish the page. <strong>This feature is only available for Pages. In future versions will be available for all post types.</strong></li>
+                    <li><span class="box-base changed">changed</span> Improved some system tweaks and code performance.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug where internal mp4 videos was handled as youtube videos.</li>
+                    <li><span class="box-base fix">fix</span> Fixed inline edition of the heading, dont working as intended.</li>
+                </ul>
+                <h2><a href="#" id="v1041">#</a> Hotfix 1.0.4.1/1.0.4.2 (Released on 01/13/2016)</h2>
+                <ul>
+                    <li><span class="box-base fix">fix</span> Fixed a capability notice on the page list.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug where the page cant be saved for the second time causing some "String.Format" bug.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug with the registration.</li>
+                </ul>
+                <h2><a href="#" id="v104">#</a> Version 1.0.4 (Released on 01/13/2016)</h2>
+                <ul>
+                    <li><span class="box-base new">New</span> Added a new way to edit published content not handled by PageStudio.</li>
+                    <li><span class="box-base new">New</span> Added a link on the page list directly to PageStudio Editor.</li>
+                    <li><span class="box-base new">New</span> Now you can use PageStudio to edit your posts.</li>
+                    <li><span class="box-base new">New</span> Added editor buttons inside the wordpress admin bar, to help you to edit your pages or posts faster.</li>
+                    <li><span class="box-base new">New</span> Added support to all Wordpress Widgets, support to custom widgets will come later.</li>
+                    <li><span class="box-base new">New</span> Added a option to create rows after another row.</li>
+                    <li><span class="box-base new">New</span> Added pre-component check for editor messages.</li>
+                    <li><span class="box-base new">New</span> Added a better way to make ajax requests inside the editor.</li>
+                    <li><span class="box-base new">New</span> Added Audio component.</li>
+                    <li><span class="box-base new">New</span> Added full support to <a href="https://wordpress.org/plugins/contact-form-7/" target="_blank">Contact Form 7</a>.</li>
+                    <li><span class="box-base changed">changed</span> Font system optimized, for better performance.</li>
+                    <li><span class="box-base changed">changed</span> Improved the Typography module, now with Word Spacing and Letter Spacing.</li>
+                    <li><span class="box-base changed">changed</span> Improved the way that you can change the Heading inside the Typography Module.</li>
+                    <li><span class="box-base changed">changed</span> Improved the font files using the Google's Zopfli Algorithm to compress the font data.</li>
+                    <li><span class="box-base changed">changed</span> Removed the restriction to edit pages.</li>
+                    <li><span class="box-base changed">changed</span> Improved the wordpress notices system.</li>
+                    <li><span class="box-base changed">changed</span> Improved the component tab.</li>
+                    <li><span class="box-base changed">changed</span> Improved the HTML code Rendered to optimize your page.</li>
+                    <li><span class="box-base changed">changed</span> Improved the code to maximize the PageSpeed Insight Score.</li>
+                    <li><span class="box-base changed">changed</span> Media component reworked.</li>
+                    <li><span class="box-base changed">changed</span> Improved the code of the editor.</li>
+                    <li><span class="box-base fix">fix</span> Fixed the problem when rows and cols lost their style after the re-edit.</li>
+                    <li><span class="box-base fix">fix</span> Fixed some php notices messages.</li>
+                    <li><span class="box-base fix">fix</span> Fixed some references.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug with buttons changing background style.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug when the user are not able to skip the help tour.</li>
+                    <li><span class="box-base fix">fix</span> Fixed the tour triggered by the user not showing the component tab correctly.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a problem of the editor being blocked in case of wrong target.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug where the Styletab not restart with certain components.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug where some image loaded by external URL looses their reference after the second save.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug where url images displayed as background did not appear correctly.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug where predefined elements dont perform their init script.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a css notice caused by the Wordpress 4.7.1.</li>
+                </ul>
+                <h2><a href="#" id="v103">#</a> Version 1.0.3 (Released on 12/21/2016)</h2>
+                <ul>
+                    <li><span class="box-base changed">changed</span> Changed how fonts are listed in the editor. Now they are in alphabetical order.</li>
+                    <li><span class="box-base changed">changed</span> Removed unnecessary debug texts.</li>
+                    <li><span class="box-base new">new</span> Added the link for Support inside the About Page.</li>
+                    <li><span class="box-base fix">fix</span> Fixed some incorrect information with admin notices.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug with the blur trigger not working on links.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a problem with URLs, due to different urls and how the user may wish to use the field to add other types of non-HTTP addresses. We removed the url validator.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug where for no reason some elements lost their style references.</li>
+                    <li><span class="box-base new">new</span> Added 35 more fonts ready to use inside the editor.</li>
+                    <li><span class="box-base fix">fix</span> Fixed the async bug with Pinterest and Facebook scripts.</li>
+                    <li><span class="box-base fix">fix</span> Fixed many compatibility problems when running the Wordpress in specific environments.</li>
+                    <li><span class="box-base fix">fix</span> Fixed some problems with the Wordpress system and execution order in specific enviroiments.</li>
+                    <li><span class="box-base fix">fix</span> Fixed some preview CSS being changed or deformed because of the theme Styles.</li>
+                </ul>
+                <h2><a href="#" id="v1021">#</a> Hotfix 1.0.2.1 (Released on 12/20/2016)</h2>
+                <ul>
+                    <li><span class="box-base fix">fix</span> Fixed the help system not working.</li>
+                    <li><span class="box-base fix">fix</span> Fixed some deprecated permissions from wordpress 4.7.</li>
+                </ul>
+                <h2><a href="#" id="v102">#</a> Version 1.0.2 (Released on 12/13/2016)</h2>
+                <ul>
+                    <li><span class="box-base new">new</span> Added a rapid grid creation line. You can now insert new rows without opening the component bar (but the layout controls are still there).</li>
+                    <li><span class="box-base changed">changed</span> Changed the blank space option, now disabled, you can turn on in the config options.</li>
+                    <li><span class="box-base fix">fix</span> Fixed the bug when editing the grid and the getting the wrong button selected.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a performance bug with multiple callbacks from the API when trying to update.</li>
+                    <li><span class="box-base fix">fix</span> Fixed some performance issues on Google Chrome.</li>
+                    <li><span class="box-base fix">fix</span> Fixed some localization issues for PT-BR.</li>
+                </ul>
+                <h2><a href="#" id="v1011">#</a> Hotfix 1.0.1.1 (Released on 12/10/2016)</h2>
+                <ul>
+                    <li><span class="box-base new">new</span> Added one more role to save drafts inside the front-end editor, this was added because the demonstration version.</li>
+                    <li><span class="box-base changed">changed</span> Changed the role for the Publish Action, now uses the publish_pages instead of the edit_pages.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a bug where you cant change the page title inside the editor when the roles are activated and the user have permission to change.</li>
+                    <li><span class="box-base fix">fix</span> Fixed the blur action not working when try to edit a title with permissions activated.</li>
+                    <li><span class="box-base fix">fix</span> Fixed an issue where a user with no rules to create page, but with access to the frontend editor, still have option to create a new page (being redirected to a wordpress error).</li>
+                    <li><span class="box-base fix">fix</span> Fixed a message that could cause misinterpretation by the user as to the proper resolution to use the editor..</li>
+                </ul>
+                <h2><a href="#" id="v101">#</a> Version 1.0.1 (Released on 12/08/2016)</h2>
+                <ul>
+                    <li><span class="box-base fix">fix</span> Fixed a a bug with the padding/margin markdown overlapping the row/column control.</li>
+                    <li><span class="box-base fix">fix</span> Fixed a performance bug with multiple callbacks from the API.</li>
+                    <li><span class="box-base changed">changed</span> Changed the predefined elements code to a better one, and better images.</li>
+                    <li><span class="box-base new">new</span> Added a hover effect when you select a component to drop.</li>
+                </ul>
+                <h2><a href="#" id="v100">#</a> Version 1.0.0 (Released on 12/07/2016)</h2>
+                <ul>
+                    <li><span class="box-base new">new</span> Initial Release</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

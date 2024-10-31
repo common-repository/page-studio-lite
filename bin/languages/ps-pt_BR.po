@@ -1,0 +1,2285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkcms\n"
+"POT-Creation-Date: 2017-01-30 11:36-0200\n"
+"PO-Revision-Date: 2017-01-30 11:38-0200\n"
+"Last-Translator: \n"
+"Language-Team: Devteam Checkmate <dev@checkmatedigital.com.br>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: ps_trans\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+
+#: _actions.php:44
+msgid "Configurations Saved."
+msgstr "Configurações Salvas"
+
+#: _actions.php:46 _actions.php:65
+msgid "Failed to save, try again later."
+msgstr "Falha ao salvar, tente novamente mais tarde."
+
+#: _actions.php:63
+msgid "Permissions Saved."
+msgstr "Permissões Salvas"
+
+#: _actions.php:89
+msgid "Changes Saved."
+msgstr ""
+
+#: _actions.php:104
+msgid "Server error unknown"
+msgstr "Erro desconhecido no servidor"
+
+#: _actions.php:105
+#, php-format
+msgid ""
+"Failed to authenticate your product. The purchase code is correct? Server "
+"Error: %s"
+msgstr ""
+"Falha ao autenticar o seu produto. O código de compra está correto? Erro no "
+"servidor: %s"
+
+#: _actions.php:110
+msgid "You need to inform your purchase code."
+msgstr "Você precisa informar o código de compra"
+
+#: _internal.php:15 plugins/Addons/Social/Controls/LikeProperties.php:15
+msgid "Layout"
+msgstr "Layout"
+
+#: _internal.php:16
+msgid "Elements"
+msgstr "Elementos"
+
+#: _internal.php:17 class/class.frontend.php:558
+msgid "Components"
+msgstr "Componentes"
+
+#: _internal.php:19 class/class.frontend.php:425
+msgid "Predefined Elements"
+msgstr "Elementos Pré-Definidos"
+
+#: _internal.php:20
+msgid "Wordpress Widgets"
+msgstr "Widgets do Wordpress"
+
+#: _menu.php:72 _menu.php:73 _menu.php:86 _menu.php:97 _menu.php:106
+#: _menu.php:117 _menu.php:129 class/class.frontend.php:543
+msgid "Page Studio"
+msgstr "Page Studio"
+
+#: _menu.php:87
+msgid "Frontend Editor"
+msgstr "Editor Frontend"
+
+#: _menu.php:98 incs/inc.update.php:144
+msgid "Configuration"
+msgstr "Configuração"
+
+#: _menu.php:107 _menu.php:151
+msgid "Post Types"
+msgstr ""
+
+#: _menu.php:118 _menu.php:155 pages/page.config.access.php:20
+#: pages/page.config.access.php:33
+msgid "Permissions"
+msgstr "Permissões"
+
+#: _menu.php:130
+msgid "Authorization"
+msgstr "Autorização"
+
+#: _menu.php:147 class/class.frontend.php:546 pages/page.config.access.php:20
+#: pages/page.config.php:20 pages/page.config.types.php:15
+msgid "Configurations"
+msgstr "Configurações"
+
+#: class/class.editorbase.php:28 class/class.editorbase.php:40
+msgid "Save"
+msgstr "Salvar"
+
+#: class/class.editorbase.php:29 class/class.editorbase.php:41
+#: class/class.frontend.php:392
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: class/class.editorbase.php:47 class/class.general.php:70
+msgid "Customizable CSS"
+msgstr "CSS Customizável"
+
+#: class/class.editorbase.php:48
+msgid "This CSS code will only work in this page."
+msgstr "Este código CSS apenas irá funcionar nesta página"
+
+#: class/class.editorbase.php:53
+msgid "Customizable Html"
+msgstr "HTML Customizável."
+
+#: class/class.editorbase.php:58
+msgid "Paragraph Editor"
+msgstr "Editor de Parágrafo"
+
+#: class/class.frontend.php:261 class/class.frontend.php:267
+#: class/class.frontend.php:273
+#, php-format
+msgid "%s is missing for component"
+msgstr ""
+
+#: class/class.frontend.php:281
+#, php-format
+msgid "Editor Module [%s] not found or not registered for component [%s]."
+msgstr ""
+
+#: class/class.frontend.php:347
+msgid "Element Removed"
+msgstr "Elemento Removido"
+
+#: class/class.frontend.php:348
+msgid "Element Cloned Successfully"
+msgstr "Elemento clonado com sucesso."
+
+#: class/class.frontend.php:349
+msgid "Delete This Element?"
+msgstr "Deletar este elemento?"
+
+#: class/class.frontend.php:350
+msgid "Row Edited."
+msgstr "Linha Editada"
+
+#: class/class.frontend.php:351
+msgid "Added ({0}) column(s)."
+msgstr "Adicionado ({0}) coluna(s)."
+
+#: class/class.frontend.php:352
+msgid ""
+"This action will remove one or more columns from the row, do you want to "
+"continue?"
+msgstr ""
+"Esta ação irá remover um ou mais colunas desta linha, deseja continuar?"
+
+#: class/class.frontend.php:353
+msgid "Column Removed"
+msgstr "Coluna Removida"
+
+#: class/class.frontend.php:354
+msgid "Remove Column?"
+msgstr "Remover Coluna?"
+
+#: class/class.frontend.php:355 class/class.frontend.php:365
+msgid "Failed to create the element, template not found."
+msgstr "Falha ao criar elemento, template não encontrado."
+
+#: class/class.frontend.php:356
+msgid "Row Added"
+msgstr "Linha Adicionada"
+
+#: class/class.frontend.php:357
+msgid "Component [{0}] added"
+msgstr "Componente [{0}] adicionado"
+
+#: class/class.frontend.php:358
+msgid "Do you really want to remove all content? This action cannot be undone."
+msgstr ""
+"Você realmente deseja remover este conteúdo? Esta ação não poderá ser "
+"desfeita."
+
+#: class/class.frontend.php:359
+msgid "All page content was successfully removed."
+msgstr "Todo o conteúdo da página foi removido com sucesso"
+
+#: class/class.frontend.php:360
+msgid "On grid overlay mode, the editor is disabled."
+msgstr "No modo de overlay da grid, o editor ficará desabilitado"
+
+#: class/class.frontend.php:361
+msgid "Blank Page? Oh noes!"
+msgstr "Sem página? Oh não!"
+
+#: class/class.frontend.php:362
+msgid "Start building your page right now!"
+msgstr "Comece criando a sua página agora!"
+
+#: class/class.frontend.php:363
+msgid "URL changed"
+msgstr "URL Modificada"
+
+#: class/class.frontend.php:364
+msgid "Sorry, URL not valid"
+msgstr "Esta URL não é válida."
+
+#: class/class.frontend.php:366
+msgid ""
+"Failed to publish the page. Some error occurred, please, reload the page and "
+"try again."
+msgstr ""
+"Falha ao publicar a página. Algum erro ocorreu, por favor, recarregue a "
+"página e tente novamente."
+
+#: class/class.frontend.php:367
+msgid "Page published successfully, confirm if you want to go to your page"
+msgstr "Página publicada com sucesso!"
+
+#: class/class.frontend.php:368
+msgid "Page draft updated."
+msgstr "Rascunho Atualizado"
+
+#: class/class.frontend.php:369
+msgid "Do you want to publish this page?"
+msgstr "Você deseja publicar esta página?"
+
+#: class/class.frontend.php:370
+msgid "You have unsaved changes, are you sure you want to leave?"
+msgstr "Você possui modificações que não foram salvas, deseja fechar?"
+
+#: class/class.frontend.php:372
+msgid "Page title changed"
+msgstr "Título da página modificado"
+
+#: class/class.frontend.php:373
+msgid "Editor Blank Space"
+msgstr "Espaço em Branco"
+
+#: class/class.frontend.php:374
+msgid "You will only see this element in the edit mode."
+msgstr "Você apenas verá este elemento no modo de edição"
+
+# Here, the "row" and "col" text need to be 3 letters, because of the div space.
+#: class/class.frontend.php:377
+msgid "row"
+msgstr "lnh"
+
+# Here, the "row" and "col" text need to be 3 letters, because of the div space.
+#: class/class.frontend.php:378
+msgid "col"
+msgstr "col"
+
+#: class/class.frontend.php:379
+msgid "Picker"
+msgstr "Picker"
+
+#: class/class.frontend.php:380
+msgid "Wheel"
+msgstr "Roda"
+
+#: class/class.frontend.php:381
+msgid "Color History"
+msgstr "Histórico de Cor"
+
+#: class/class.frontend.php:382
+msgid "Move"
+msgstr "Mover"
+
+#: class/class.frontend.php:383
+msgid "Clone"
+msgstr "Clonar"
+
+#: class/class.frontend.php:384
+msgid "Edit"
+msgstr "Editar"
+
+#: class/class.frontend.php:385
+msgid "Delete"
+msgstr "Deletar"
+
+#: class/class.frontend.php:386
+msgid "on"
+msgstr "lig"
+
+#: class/class.frontend.php:387
+msgid "off"
+msgstr "des"
+
+#: class/class.frontend.php:388
+msgid "Edit Spacing"
+msgstr "Editar espaçamento"
+
+#: class/class.frontend.php:391
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: class/class.frontend.php:393
+msgid "Remove"
+msgstr "Remover"
+
+#: class/class.frontend.php:394
+msgid "Start with a row"
+msgstr "Comece com uma linha"
+
+#: class/class.frontend.php:395
+msgid "Or use a template"
+msgstr "Ou use um Template"
+
+#: class/class.frontend.php:396
+msgid "Use Selected Image"
+msgstr "Utilizar imagem selecionada"
+
+#: class/class.frontend.php:399 class/class.frontend.php:429
+#: class/class.frontend.php:617
+msgid "CSS Editor"
+msgstr "Editor CSS"
+
+#: class/class.frontend.php:400
+msgid "HTML Editor"
+msgstr "Editor HTML"
+
+#: class/class.frontend.php:401
+msgid "Row Columns"
+msgstr "Linhas e Colunas"
+
+#: class/class.frontend.php:402
+msgid "Text Editor"
+msgstr "Editor de Texto"
+
+#: class/class.frontend.php:403
+msgid "Select Image"
+msgstr "Selecionar Imagem"
+
+#: class/class.frontend.php:406
+msgid "Your browser does not support the HTML5 content editable."
+msgstr "Seu navegador não suporta HTML5 content editable."
+
+#: class/class.frontend.php:407
+msgid "Your browser does not support the input placeholder."
+msgstr "Seu navegador não suporta input placeholder"
+
+#: class/class.frontend.php:408
+msgid "Your browser does not support the HTML5 videos."
+msgstr "Seu navegador não suporta videos HTML5"
+
+#: class/class.frontend.php:409
+msgid "Your browser does not support the CSS Animations."
+msgstr "Seu navegador não suporta Animações CSS"
+
+#: class/class.frontend.php:410
+msgid "Your browser does not support the CSS Transitions."
+msgstr "Seu navegador não suporta Transições CSS"
+
+#: class/class.frontend.php:411
+msgid "Anchor Not Found, impossible to find the main element."
+msgstr ""
+"Ancora não encontrada, impossível achar o elemento principal nesta página."
+
+#: class/class.frontend.php:412
+msgid "Your browser does not support the HTML5 fullscreen feature."
+msgstr "Seu navegador não suporta  HTML 5 fullscreen"
+
+#: class/class.frontend.php:415
+msgid "Yes, Please!"
+msgstr "Sim Por favor"
+
+#: class/class.frontend.php:416
+msgid "No, thanks..."
+msgstr "Não"
+
+#: class/class.frontend.php:417
+msgid "Next"
+msgstr "Próximo"
+
+#: class/class.frontend.php:418
+msgid "Done"
+msgstr "Pronto"
+
+#: class/class.frontend.php:419
+msgid "PageStudio Tour"
+msgstr "PageStudio Tour"
+
+#: class/class.frontend.php:420
+msgid ""
+"Welcome! It looks like this might be your first time using the builder. "
+"Would you like to take a tour?"
+msgstr ""
+"Bem Vindo! Parece que é a primeira vez que você está usando este editor. "
+"Gostaria de um tour?"
+
+#: class/class.frontend.php:421
+msgid "Components and Plugins"
+msgstr "Componentes e Plugins"
+
+#: class/class.frontend.php:422
+msgid "Here you can find any component and layout options to build your page."
+msgstr ""
+"Aqui você pode achar qualquer componente e opções de layout para criar a sua "
+"página."
+
+#: class/class.frontend.php:423
+msgid "Add Content"
+msgstr "Adicionar Componente"
+
+#: class/class.frontend.php:424
+msgid ""
+"Add new content by dragging and dropping modules or widgets into your row "
+"layouts or to create a new row layout."
+msgstr ""
+"Adiciona novo conteúdo apenas arrastando e soltando módulos ou widgets "
+"dentro das linhas e colunas do layout."
+
+#: class/class.frontend.php:426
+msgid ""
+"You can pick a predefined element and append to your layout inserting a new "
+"template at the end of your existing page content."
+msgstr ""
+"Você pode escolher um elemento pré-definido e adicionar isso ao seu layout, "
+"no final do conteúdo de sua página."
+
+#: class/class.frontend.php:427
+msgid "Page Title"
+msgstr "Título da Página"
+
+#: class/class.frontend.php:428
+msgid ""
+"You can change the title of this page by clicking and typing the new title, "
+"no need to go back to the Wordpress Editor."
+msgstr ""
+"Você pode alterar o título da página apenas clicando e escrevendo o novo "
+"título, sem necessidade de retornar ao editor Wordpress"
+
+#: class/class.frontend.php:430
+msgid "The PageStudio Editor allows you to write your own CSS code."
+msgstr "O Editor do PageStudio permite você a escrever seu próprio código CSS."
+
+#: class/class.frontend.php:431
+msgid "Saving Drafts"
+msgstr "Salvando Rascunhos"
+
+#: class/class.frontend.php:432
+msgid ""
+"You can save a draft of your page clicking here, PageStudio also have a auto-"
+"save feature, you can change the minutes inside PageStudio -> Configurations."
+msgstr ""
+"Você pode salvar o rascunho de sua página clicando aqui, o PageStudio também "
+"possui uma ferramenta de auto-save, você pode setar os minutos em PageStudio "
+"-> Configurações."
+
+#: class/class.frontend.php:433
+msgid "Publishing"
+msgstr "Publicando"
+
+#: class/class.frontend.php:434
+msgid "Once you're finished, click this button to publish your changes."
+msgstr ""
+"Assim que você terminar, clique neste botão para publicar as suas "
+"modificações."
+
+#: class/class.frontend.php:435
+msgid "Page Resolution"
+msgstr "Resolução da Página."
+
+#: class/class.frontend.php:436
+msgid "Here you can test the responsiveness of your page."
+msgstr "Aqui você pode testar a responsividade de sua página."
+
+#: class/class.frontend.php:437
+msgid "Page Content"
+msgstr "Conteúdo da Página"
+
+#: class/class.frontend.php:438
+msgid ""
+"Here is your page Content, you can add rows, modules, edit and interact with "
+"them, only using Drag and drop."
+msgstr ""
+"Aqui é onde se encontra o conteúdo de sua página. Você pode adicionar "
+"linhas, colunas e módulos, editar e interagir com eles. Apenas arrastando e "
+"soltando."
+
+#: class/class.frontend.php:439
+msgid "Lets Start!"
+msgstr "Vamos começar!"
+
+#: class/class.frontend.php:440
+msgid ""
+"Now that you know the basics of the PageStudio, you're ready to start "
+"building!"
+msgstr ""
+"Agora que você tem o básico do PageStudio, você está pronto para começar a "
+"editar."
+
+#: class/class.frontend.php:527
+msgid "Your resolution is too small"
+msgstr "Sua resolução é muito pequena"
+
+#: class/class.frontend.php:528
+msgid ""
+"Sorry, you cant use this editor in any screen<br/>smaller than 900px. If you "
+"want to see the<br/>responsiveness of your website, use the<br/>editor tool."
+msgstr ""
+"Desculpe, você não pode utilizar o editor em qualquer resolução<br/>menor "
+"que 900px. Se você deseja ver a<br/>responsividade de seu website, utiliza a "
+"ferramenta<br/>do próprio editor."
+
+#: class/class.frontend.php:549
+msgid "Hightlight all Elements"
+msgstr "Marcar todos os elementos"
+
+#: class/class.frontend.php:550
+msgid "Clean Page"
+msgstr "Limpar Página"
+
+#: class/class.frontend.php:551
+msgid "Toggle Grid Overlay"
+msgstr "Alternar Overlay da grid"
+
+#: class/class.frontend.php:552
+msgid "Toggle Fullscreen"
+msgstr "Alternar modo tela-cheia"
+
+#: class/class.frontend.php:553
+msgid "Toggle Blank Space"
+msgstr "Alternar Espaço em Branco"
+
+#: class/class.frontend.php:554
+msgid "Editor Tour"
+msgstr "Tour pelo Editor"
+
+#: class/class.frontend.php:560
+msgid "Create New Page"
+msgstr "Criar Nova Página"
+
+#: class/class.frontend.php:566
+msgid "Click to edit the page title."
+msgstr "Clique para editar o título desta página"
+
+#: class/class.frontend.php:576
+msgid "Publish"
+msgstr "Publicar"
+
+#: class/class.frontend.php:582
+msgid "Change Page Resolution"
+msgstr "Alterar resolução da página"
+
+#: class/class.frontend.php:589
+#, php-format
+msgid "Change Resolution to %s"
+msgstr "Alterar resolução para %s"
+
+#: class/class.frontend.php:602
+msgid "Close Editor and go to the page without save."
+msgstr "Fechar editor e ir para a página sem salvar"
+
+#: class/class.frontend.php:606
+msgid "Save a draft of this page"
+msgstr "Salve um rascunho desta página"
+
+#: class/class.frontend.php:606
+msgid "Save Draft"
+msgstr "Salvar Rascunho"
+
+#: class/class.frontend.php:611
+msgid "Back to the wordpress editor"
+msgstr "Retornar ao editor Wordpress"
+
+#: class/class.frontend.php:611
+msgid "WP Editor"
+msgstr "Editor WP"
+
+#: class/class.frontend.php:624
+msgid "Editor Alerts"
+msgstr ""
+
+#: class/class.frontend.php:650
+msgid "Canvas Size"
+msgstr ""
+
+#: class/class.frontend.php:656
+#: plugins/Addons/Social/Controls/PostProperties.php:17
+#: plugins/Addons/Social/Controls/VideoProperties.php:17
+#: plugins/Default/Controls/Media.php:38
+#: plugins/Default/Controls/Transform.php:62
+msgid "Width"
+msgstr "Largura"
+
+#: class/class.frontend.php:666 plugins/Default/Controls/Media.php:48
+#: plugins/Default/Controls/Transform.php:71
+msgid "Height"
+msgstr "Altura"
+
+#: class/class.frontend.php:709
+msgid "Saving..."
+msgstr "Salvando..."
+
+#: class/class.frontend.php:751
+msgid "Desktop"
+msgstr "Desktop"
+
+#: class/class.frontend.php:752
+msgid "Tablet"
+msgstr "Tablet"
+
+#: class/class.frontend.php:753
+msgid "Tablet Landscape"
+msgstr "Table Paisagem"
+
+#: class/class.frontend.php:754
+msgid "Phone"
+msgstr "Celular"
+
+#: class/class.frontend.php:755
+msgid "Phone Landscape"
+msgstr "Celular Paisagem"
+
+#: class/class.general.php:66
+msgid "Access Editor"
+msgstr "Acessar Editor"
+
+#: class/class.general.php:67
+msgid "Change Configurations"
+msgstr "Mudar Configurações"
+
+#: class/class.general.php:68
+msgid "Change Permissions"
+msgstr "Mudar Permissões"
+
+#: class/class.general.php:69
+msgid "Save Configurations"
+msgstr "Salvar Configurações"
+
+#: class/class.general.php:71
+msgid "Change Resolution"
+msgstr "Modificar Resolução"
+
+#: class/class.general.php:72
+msgid "Ignore wordpress default editor."
+msgstr "Ignorar o editor padrão do wordpress"
+
+#: class/class.general.php:73
+msgid "Change post title"
+msgstr "Modificar título da página"
+
+#: class/class.general.php:74
+msgid "Save Drafts"
+msgstr "Salvar Rascunho"
+
+#: incs/inc.extensible.php:170
+msgid "Open in PageStudio Editor"
+msgstr "Abrir no Editor PageStudio"
+
+#: incs/inc.extensible.php:199
+msgid "Edit Using PageStudio"
+msgstr "Editar usando PageStudio"
+
+#: incs/inc.extensible.php:210
+msgid "New Page with PageStudio"
+msgstr "Nova Página com PageStudio"
+
+#: incs/inc.general.php:624
+msgid "Open Page Studio"
+msgstr "Abrir PageStudio"
+
+#: incs/inc.meta.php:31
+msgid "Clone Pagestudio Page"
+msgstr "Pagestudio Clone de Página"
+
+#: incs/inc.meta.php:140
+msgid "Use this feature to clone any PageStudio page (content and style)."
+msgstr ""
+"Utilize esta ferramenta para clonar qualquer página feita no PageStudio "
+"(Conteúdo e Estilo)"
+
+#: incs/inc.meta.php:141
+msgid "PageStudio Page:"
+msgstr "Página do PageStudio"
+
+#: incs/inc.meta.php:144
+msgid "No Page"
+msgstr "Sem Página"
+
+#: incs/inc.meta.php:151
+msgid "You need to save this page in order to save all the content and style"
+msgstr ""
+
+#: incs/inc.update.php:57
+msgid "here"
+msgstr "aqui"
+
+#: incs/inc.update.php:58
+#, php-format
+msgid ""
+"There's a new version of <strong>PageStudio</strong>. Your version (<strong>"
+"%s</strong>) new version (<strong>%s</strong>). Please click %s to update."
+msgstr ""
+"Há uma nova versão para o <strong>PageStudio</strong>. Sua versão atual "
+"(<strong>%s</strong>) nova versão (<strong>%s</strong>). Por favor clique %s "
+"para atualizar."
+
+#: incs/inc.update.php:91
+msgid "please purchase here"
+msgstr "por favor compre aqui"
+
+#: incs/inc.update.php:92
+#, php-format
+msgid ""
+"You're not authorized to use this plugin. To download the new version of "
+"this plugin, %s. You'll have access to all future updates and to our full "
+"support."
+msgstr ""
+"Você não está autorizado a utilizar este plugin. Para baixar a nova versão "
+"deste plugin, %s. Você terá acesso a futuras atualizações e ao nosso total "
+"suporte."
+
+#: incs/inc.update.php:120
+msgid "Authorize this plugin"
+msgstr "Autorizar este plugin"
+
+#: incs/inc.update.php:124
+msgid "Support"
+msgstr "Suporte"
+
+#: incs/inc.update.php:157
+msgid "Authorize This Plugin"
+msgstr "Autorize este plugin"
+
+#: incs/inc.update.php:158
+msgid "Buy PageStudio Plugin"
+msgstr "Compre o PageStudio Plugin"
+
+#: incs/inc.update.php:159
+#, php-format
+msgid ""
+"Please consider registering the %s plugin. You will always have access to "
+"all updates and also our support. Please %s or %s"
+msgstr ""
+"Por favor, considere registrar o plugin %s. Você sempre terá acesso a todos "
+"os updates e também ao nosso suporte. Por favor %s ou %s."
+
+#: pages/page.about.php:22
+#, php-format
+msgid "Welcome to the %s"
+msgstr "Bem Vindo ao %s"
+
+#: pages/page.about.php:24
+msgid ""
+"PageStudio is a simple and easy page editor for wordpress, where you can "
+"create your pages in a few minutes."
+msgstr ""
+"PageStudio é um simples e fácil editor de páginas para o wordpress, onde "
+"você pode criar suas páginas em alguns minutos."
+
+#: pages/page.about.php:27
+#, php-format
+msgid "Version: %s"
+msgstr "Versão: %s"
+
+#: pages/page.about.php:30
+msgid "The PageStudio"
+msgstr "O PageStudio"
+
+#: pages/page.about.php:31
+msgid "Changelog"
+msgstr "Log de Mudanças"
+
+#: pages/page.about.php:32
+msgid "Report a Bug"
+msgstr "Reportar um Bug"
+
+#: pages/page.about.php:33
+msgid "Knowledge Base"
+msgstr "Documentação"
+
+#: pages/page.about.php:35
+msgid "Authorize Plugin"
+msgstr "Autorizar Plugin"
+
+#: pages/page.about.php:37
+msgid "Full Support"
+msgstr "Suporte Completo"
+
+#: pages/page.about.php:42
+msgid "See the plataform in Action"
+msgstr "Veja a plataforma em ação"
+
+#: pages/page.about.php:43
+msgid "Watch a video showing how to design a webpage using PageStudio."
+msgstr "Veja um video mostrando como criar uma página usando o PageStudio"
+
+#: pages/page.about.php:48
+msgid "PageStudio Changelog"
+msgstr "Log de Modificações do PageStudio"
+
+#: pages/page.about.php:168
+msgid "PageStudio Support"
+msgstr "PageStudio Suporte"
+
+#: pages/page.about.php:169
+msgid ""
+"For a complete support to our plugin, we recommend you to register on our "
+"website:"
+msgstr ""
+"Para um completo suporte de nosso plugin, nós recomendamos que você se "
+"registre em nosso website."
+
+#: pages/page.about.php:170
+msgid "Register at Checkmatedigital"
+msgstr "Registre-se na Checkmatedigital"
+
+#: pages/page.config.access.php:29
+msgid "Editor Permissions"
+msgstr "Permissões do Editor"
+
+#: pages/page.config.access.php:37
+msgid "Enable permissions for all roles"
+msgstr "Habilitar permissões para todos os cargos"
+
+#: pages/page.config.access.php:38
+msgid ""
+"By enabling the permissions you will need to adjust the accesses to the "
+"editor, for all wordpress roles. Keeping disabled, all users will have full "
+"access to the editor."
+msgstr ""
+"Habilitando as permissões você precisará ajustar os acessos ao editor, para "
+"todas as roles do wordpress. Mantendo desabilitado, todos os usuários terão "
+"acesso completo ao editor."
+
+#: pages/page.config.access.php:52
+msgid "Check all"
+msgstr "Marcar Todos"
+
+#: pages/page.config.access.php:53
+msgid "Uncheck all"
+msgstr "Desmarcar Todos"
+
+#: pages/page.config.access.php:76 pages/page.config.php:80
+#: pages/page.config.types.php:94
+msgid "Save Changes"
+msgstr "Salvar Mudanças"
+
+#: pages/page.config.php:28
+msgid "Editor Options"
+msgstr "Opções do Editor"
+
+#: pages/page.config.php:32
+msgid "Minify Custom CSS"
+msgstr "Minificar CSS customizado"
+
+#: pages/page.config.php:36
+msgid ""
+"Page Studio generates custom css automatically, minifying this file can "
+"reduce the final size. (recomended)"
+msgstr ""
+"PageStudio cria um arquivo CSS customizado de forma automática. Minificando "
+"o arquivo irá reduzir o tamanho final. (recomendado)"
+
+#: pages/page.config.php:41
+msgid "Blank Space"
+msgstr "Espaço em Banco"
+
+#: pages/page.config.php:45
+msgid "Enable the blank space inside the frontend editor."
+msgstr "Habilitar o espaço em branco dentro do frontend editor."
+
+#: pages/page.config.php:50
+msgid "Editor Help Hints"
+msgstr "Ajuda do Editor"
+
+#: pages/page.config.php:54
+msgid ""
+"Enable the \"Take a tour\" option to help you to use the editor for the "
+"first time."
+msgstr ""
+"Habilitar a opção \"Tour pelo Editor\" para ajudar o usuário que acessa o "
+"editor pela primeira vez."
+
+#: pages/page.config.php:59
+msgid "Auto Save"
+msgstr "Salvamento Automático"
+
+#: pages/page.config.php:63
+msgid "Enable Auto Save"
+msgstr "Habilitar Salvamento Automático"
+
+#: pages/page.config.php:68
+msgid "Auto Save timer"
+msgstr "Tempo do Salvamento Automático"
+
+#: pages/page.config.php:72
+msgid "Minutes"
+msgstr "Minutos"
+
+#: pages/page.config.types.php:23
+msgid "All Post Types"
+msgstr ""
+
+#: pages/page.config.types.php:24
+msgid ""
+"Attention, enabling the pagestudio for post types of third-party plugins may "
+"not be compatible. Disabling of all objects will make the pagestudio "
+"inaccessible."
+msgstr ""
+
+#: pages/page.config.types.php:45
+msgid "PageStudio"
+msgstr ""
+
+#: pages/page.config.types.php:48
+msgid "Enabled"
+msgstr ""
+
+#: pages/page.config.types.php:49
+msgid "Disabled"
+msgstr ""
+
+#: pages/page.config.types.php:54 plugins/Default/Controls/Editor.php:19
+msgid "Editor"
+msgstr "Editor"
+
+#: pages/page.config.types.php:58
+msgid "Open Editor Option"
+msgstr ""
+
+#: pages/page.config.types.php:59
+msgid ""
+"Activate the open editor option directly in the post type list (if using the "
+"wordpress default listing."
+msgstr ""
+
+#: pages/page.config.types.php:64
+msgid "Editor Access"
+msgstr ""
+
+#: pages/page.config.types.php:68
+msgid "Redirect to the editor"
+msgstr ""
+
+#: pages/page.config.types.php:69
+msgid ""
+"When the user access the normal Wordpress Editor Page, the system will "
+"redirect to the frontend editor directly"
+msgstr ""
+
+#: pages/page.rest.php:19
+msgid "consider buy the PageStudio Plugin"
+msgstr "considere comprar o plugin PageStudio"
+
+#: pages/page.rest.php:23
+#, php-format
+msgid "Authorize %s"
+msgstr "Autorizar %s"
+
+#: pages/page.rest.php:24
+msgid ""
+"Authorizing this website, you will receive updates and full support for this "
+"plugin,<br>plus information on its development, follow the steps below to "
+"get your key."
+msgstr ""
+"Autorizando este website, você irá receber updates e suporte completo para "
+"este plugin,<br>assim como informações sobre o desenvolvimento, siga os "
+"passos abaixo para obter a sua chave."
+
+#: pages/page.rest.php:38 pages/page.rest.php:55
+msgid "Enter Purchase Code:"
+msgstr "Entre com o código de compra"
+
+#: pages/page.rest.php:41
+msgid ""
+"After receiving the authorization you can use this plugin without problems."
+msgstr ""
+"Após receber o código de autorização, você poderá utilizar este plugin sem "
+"problemas."
+
+#: pages/page.rest.php:42
+#, php-format
+msgid "If you dont have the purchase code, please %s."
+msgstr "Se você não possui o código de compra, porfavor %s."
+
+#: pages/page.rest.php:47
+msgid "Request Authorize"
+msgstr "Solicitar Autorização"
+
+#: pages/page.rest.php:57
+msgid ""
+"You're free to use the PageStudio inside your personal server for tests, you "
+"dont need to authorize<br/>this plugin for localhost. Please, keep in mind "
+"that when you start to use this plugin with a valid domain,<br/>a purchase "
+"code will be asked."
+msgstr ""
+"Você é livre para utilizar o PageStudio dentro de seu servidor pessoal para "
+"testes, você não precisa de autorização<br/>para rodar em localhost. Por "
+"favor, entenda que quando este plugin for utilizado em ambiente de produção "
+"ou em domínio,<br/>o código de compra será solicitado."
+
+#: plugins/Addons/ContactForm7/ContactForm7.php:15
+msgid "Contact7"
+msgstr "Concact7"
+
+#: plugins/Addons/ContactForm7/ContactForm7.php:26
+msgid "Edit this module to select the contact form."
+msgstr ""
+
+#: plugins/Addons/ContactForm7/Controls/ContactFormProperties.php:19
+msgid "No formulary"
+msgstr ""
+
+#: plugins/Addons/ContactForm7/Controls/ContactFormProperties.php:24
+#: plugins/Addons/ContactForm7/Controls/ContactFormProperties.php:33
+msgid "Contact Form 7"
+msgstr ""
+
+#: plugins/Addons/ContactForm7/Controls/ContactFormProperties.php:25
+msgid "Registered Forms"
+msgstr ""
+
+#: plugins/Addons/Pack/Audio.php:15
+#: plugins/Addons/Pack/Controls/AudioProperties.php:14
+msgid "Audio"
+msgstr ""
+
+#: plugins/Addons/Pack/Carousel.php:15
+msgid "Carousel"
+msgstr "Carousel"
+
+#: plugins/Addons/Pack/Controls/AudioProperties.php:16
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:16
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:43
+#: plugins/Addons/Pack/Controls/SliderProperties.php:23
+#: plugins/Addons/Pack/Controls/VideoProperties.php:16
+#: plugins/Default/Controls/Background.php:16
+#: plugins/Default/Controls/Media.php:16
+msgid "Wordpress Media Collection"
+msgstr "Coleção de mídias do Wordpress"
+
+#: plugins/Addons/Pack/Controls/AudioProperties.php:16
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:16
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:43
+#: plugins/Addons/Pack/Controls/SliderProperties.php:23
+#: plugins/Addons/Pack/Controls/VideoProperties.php:16
+#: plugins/Default/Controls/Background.php:16
+#: plugins/Default/Controls/Media.php:16
+msgid "Media Library"
+msgstr "Biblioteca de Mídias"
+
+#: plugins/Addons/Pack/Controls/AudioProperties.php:20
+msgid "Audio Properties"
+msgstr ""
+
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:14
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:41
+#: plugins/Addons/Pack/Controls/SliderProperties.php:21
+msgid "Image List"
+msgstr "Lista de Imagem"
+
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:25
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:52
+#: plugins/Addons/Pack/Controls/SliderProperties.php:30
+#: plugins/Default/Controls/Background.php:34
+#: plugins/Default/Controls/Media.php:35
+msgid "Properties"
+msgstr "Propriedades"
+
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:28
+msgid "Image Effect"
+msgstr "Efeitos de Imagem"
+
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:31
+msgid "Gray"
+msgstr "Cinza"
+
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:32
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:76
+msgid "Opacity"
+msgstr "Opacidade"
+
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:33
+msgid "Sepia"
+msgstr "Sépia"
+
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:34
+msgid "Saturation"
+msgstr "Saturação"
+
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:38
+msgid "Slides to Show"
+msgstr "Slides a serem exibidos"
+
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:48
+msgid "Navigation"
+msgstr "Navegação"
+
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:54
+msgid "Adaptive Height"
+msgstr "Tamanho Adaptável"
+
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:60
+msgid "Focus on Select"
+msgstr "Focus na seleção"
+
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:66
+msgid "Center Mode"
+msgstr "Modo Centralizado"
+
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:72
+msgid "Draggable"
+msgstr "Arrastável"
+
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:78
+msgid "Auto Play"
+msgstr "Auto Play"
+
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:84
+msgid "Infinite Mode"
+msgstr "Modo Infinito"
+
+#: plugins/Addons/Pack/Controls/CarouselProperties.php:92
+msgid "Carousel Gallery"
+msgstr "Carousel Gallery"
+
+#: plugins/Addons/Pack/Controls/CounterProperties.php:14
+msgid "Number"
+msgstr "Número"
+
+#: plugins/Addons/Pack/Controls/CounterProperties.php:19
+msgid "Counter Up Properties"
+msgstr "Propriedades do Contador"
+
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:53
+#: plugins/Default/plg_spacing.php:16
+msgid "Spacing"
+msgstr "Espaçamento"
+
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:61
+msgid "Effect Color"
+msgstr "Cor de Efeito"
+
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:72
+msgid "Hover Effect"
+msgstr "Efeito de Hover"
+
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:75
+msgid "Scale"
+msgstr "Escala"
+
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:77
+msgid "Both"
+msgstr "Ambos"
+
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:81
+msgid "Justify Gallery"
+msgstr "Justificar Galeria"
+
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:84
+msgid "Initial"
+msgstr "Inicial"
+
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:85
+msgid "Space Between"
+msgstr "Espaço Entre"
+
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:86
+msgid "Space Around"
+msgstr "Espaço em torno"
+
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:87
+#: plugins/Addons/Pack/Controls/IconProperties.php:61
+#: plugins/Addons/Pack/Controls/SocialButtonsProperties.php:40
+#: plugins/Default/Controls/Transform.php:86
+#: plugins/Default/Controls/Typography.php:131
+msgid "Center"
+msgstr "Centro"
+
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:91
+msgid "Display Mode"
+msgstr "Modo de Exibição"
+
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:94
+msgid "Normal Link"
+msgstr "Link Normal"
+
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:95
+msgid "Magnific Popup"
+msgstr "Magnific Popup"
+
+#: plugins/Addons/Pack/Controls/GalleryProperties.php:100
+msgid "Image Gallery"
+msgstr "Galeria de Imagem"
+
+#: plugins/Addons/Pack/Controls/IconLineProperties.php:26
+#: plugins/Addons/Pack/Controls/IconListProperties.php:26
+#: plugins/Addons/Pack/Controls/IconListProperties.php:56
+#: plugins/Addons/Pack/Controls/IconProperties.php:27
+#: plugins/Addons/Pack/IconList.php:15
+msgid "Icon List"
+msgstr "Lista de ico."
+
+#: plugins/Addons/Pack/Controls/IconLineProperties.php:35
+msgid "Icon and Line Color"
+msgstr "Icone e Cor da Linha"
+
+#: plugins/Addons/Pack/Controls/IconLineProperties.php:41
+#: plugins/Addons/Pack/Controls/IconListProperties.php:46
+#: plugins/Addons/Pack/Controls/IconProperties.php:41
+#: plugins/Default/Controls/Typography.php:44
+msgid "Font Size"
+msgstr "Tamanho da Fonte"
+
+#: plugins/Addons/Pack/Controls/IconLineProperties.php:51
+#: plugins/Addons/Pack/IconLine.php:15
+msgid "Icon Line"
+msgstr "Ico em Linha"
+
+#: plugins/Addons/Pack/Controls/IconListProperties.php:35
+msgid "Icon Color"
+msgstr "Cor do Icone"
+
+#: plugins/Addons/Pack/Controls/IconListProperties.php:40
+msgid "Icon Background"
+msgstr "Cor de fundo do Icone"
+
+#: plugins/Addons/Pack/Controls/IconProperties.php:36
+#: plugins/Default/Controls/Typography.php:38
+msgid "Font Color"
+msgstr "Cor da Fonte"
+
+#: plugins/Addons/Pack/Controls/IconProperties.php:49
+#: plugins/Default/Controls/Typography.php:119
+msgid "Font Position"
+msgstr "Posição da Fonte"
+
+#: plugins/Addons/Pack/Controls/IconProperties.php:51
+#: plugins/Addons/Pack/Controls/SocialButtonsProperties.php:30
+#: plugins/Default/Controls/Transform.php:85
+#: plugins/Default/Controls/Typography.php:121
+msgid "Left"
+msgstr "Esquerda"
+
+#: plugins/Addons/Pack/Controls/IconProperties.php:56
+#: plugins/Addons/Pack/Controls/SocialButtonsProperties.php:35
+#: plugins/Default/Controls/Transform.php:87
+#: plugins/Default/Controls/Typography.php:126
+msgid "Right"
+msgstr "Direita"
+
+#: plugins/Addons/Pack/Controls/IconProperties.php:66
+#: plugins/Addons/Pack/Controls/SocialButtonsProperties.php:45
+#: plugins/Default/Controls/Typography.php:136
+msgid "Justify"
+msgstr "Justificar"
+
+#: plugins/Addons/Pack/Controls/IconProperties.php:75
+msgid "Icon Gallery"
+msgstr "Galeria de Icones"
+
+#: plugins/Addons/Pack/Controls/InstagramProperties.php:14
+#: plugins/Addons/Pack/Controls/InstagramProperties.php:19
+msgid "Instagram Properties"
+msgstr "Propriedades do Instagram"
+
+#: plugins/Addons/Pack/Controls/ProgressbarControl.php:41
+msgid "Progress Bar title"
+msgstr "Título da barra de progresso"
+
+#: plugins/Addons/Pack/Controls/ProgressbarControl.php:45
+msgid "Percent Position"
+msgstr "Posição da porcentagem"
+
+#: plugins/Addons/Pack/Controls/ProgressbarControl.php:52
+msgid "Bar Height"
+msgstr "Altura da barra"
+
+#: plugins/Addons/Pack/Controls/ProgressbarControl.php:59
+msgid "Bar Color"
+msgstr "Cor da barra"
+
+#: plugins/Addons/Pack/Controls/ProgressbarControl.php:68
+msgid "Bar Style"
+msgstr "Estilo da barra"
+
+#: plugins/Addons/Pack/Controls/ProgressbarControl.php:71
+#: plugins/Default/Controls/Transform.php:127
+msgid "Solid"
+msgstr "Sólido"
+
+#: plugins/Addons/Pack/Controls/ProgressbarControl.php:72
+msgid "Stripped"
+msgstr "Listrado"
+
+#: plugins/Addons/Pack/Controls/ProgressbarControl.php:75
+msgid "Bar Background"
+msgstr "Cor de fundo da barra"
+
+#: plugins/Addons/Pack/Controls/ProgressbarControl.php:78
+msgid "Light"
+msgstr "Clara"
+
+#: plugins/Addons/Pack/Controls/ProgressbarControl.php:79
+msgid "Dark"
+msgstr "Escuro"
+
+#: plugins/Addons/Pack/Controls/ProgressbarControl.php:84
+#: plugins/Addons/Pack/ProgressBar.php:15
+msgid "Progress Bar"
+msgstr "B. Progresso"
+
+#: plugins/Addons/Pack/Controls/SliderProperties.php:31
+msgid "In Effect"
+msgstr "Efeito de Entrada"
+
+#: plugins/Addons/Pack/Controls/SliderProperties.php:35
+msgid "Out Effect"
+msgstr "Efeito de Saída"
+
+#: plugins/Addons/Pack/Controls/SliderProperties.php:41
+msgid "Image Slider"
+msgstr "Slider de Imagem"
+
+#: plugins/Addons/Pack/Controls/SocialButtonsProperties.php:23
+msgid "Select your social networks"
+msgstr "Selecione as suas redes sociais"
+
+#: plugins/Addons/Pack/Controls/SocialButtonsProperties.php:27
+msgid "Buttons Alignment"
+msgstr "Alinhamento dos Botões"
+
+#: plugins/Addons/Pack/Controls/SocialButtonsProperties.php:52
+msgid "Social Links"
+msgstr "Links Sociais"
+
+#: plugins/Addons/Pack/Controls/SocialButtonsProperties.php:56
+#: plugins/Addons/Pack/SocialIcons.php:15
+msgid "Social Buttons"
+msgstr "Botões Sociais"
+
+#: plugins/Addons/Pack/Controls/VideoProperties.php:14
+#: plugins/Addons/Social/facebook.EmbedVideo.php:15
+msgid "Video"
+msgstr "Vídeo"
+
+#: plugins/Addons/Pack/Controls/VideoProperties.php:18
+#: plugins/Default/Controls/Background.php:18
+#: plugins/Default/Controls/Hyperlink.php:16
+#: plugins/Default/Controls/Media.php:18 plugins/Default/Controls/Url.php:29
+msgid "URL (Use http://)"
+msgstr "URL (Use http://)"
+
+#: plugins/Addons/Pack/Controls/VideoProperties.php:23
+msgid "Preload video."
+msgstr ""
+
+#: plugins/Addons/Pack/Controls/VideoProperties.php:29
+msgid "Loop."
+msgstr ""
+
+#: plugins/Addons/Pack/Controls/VideoProperties.php:35
+msgid "Autoplay."
+msgstr ""
+
+#: plugins/Addons/Pack/Controls/VideoProperties.php:41
+msgid "Muted."
+msgstr ""
+
+#: plugins/Addons/Pack/Controls/VideoProperties.php:47
+msgid "Video Controls."
+msgstr ""
+
+#: plugins/Addons/Pack/Controls/VideoProperties.php:56
+#: plugins/Addons/Pack/Controls/YoutubeProperties.php:19
+msgid "Video Properties"
+msgstr "Propriedades do Vídeo"
+
+#: plugins/Addons/Pack/Controls/VimeoProperties.php:14
+#: plugins/Addons/Pack/Controls/VimeoProperties.php:52
+msgid "Vimeo Properties"
+msgstr "Propriedades do Vimeo"
+
+#: plugins/Addons/Pack/Controls/VimeoProperties.php:20
+msgid "Start playback of the video."
+msgstr "Iniciar playback do video"
+
+#: plugins/Addons/Pack/Controls/VimeoProperties.php:26
+msgid "Show the byline on the video."
+msgstr "Exibe a linha com o autor do vídeo."
+
+#: plugins/Addons/Pack/Controls/VimeoProperties.php:32
+msgid "Play the video again at the end."
+msgstr "Toca o vídeo novamente no fim."
+
+#: plugins/Addons/Pack/Controls/VimeoProperties.php:38
+msgid "Show the portrait on the video."
+msgstr "Exíbir a imagem do usuário no vídeo."
+
+#: plugins/Addons/Pack/Controls/VimeoProperties.php:44
+msgid "Show the title on the video."
+msgstr "Exibir o título no vídeo"
+
+#: plugins/Addons/Pack/Controls/VineProperties.php:14
+#: plugins/Addons/Pack/Controls/VineProperties.php:19
+msgid "Vine Properties"
+msgstr "Propriedades do Vine"
+
+#: plugins/Addons/Pack/Controls/YoutubeProperties.php:14
+msgid "Youtube Properties"
+msgstr "Propriedades do Youtube"
+
+#: plugins/Addons/Pack/Counter.php:16
+msgid "Counter"
+msgstr "Contador"
+
+#: plugins/Addons/Pack/Gallery.php:15
+msgid "Gallery"
+msgstr "Galeria"
+
+#: plugins/Addons/Pack/Icon.php:15
+msgid "Icon"
+msgstr "Ícone"
+
+#: plugins/Addons/Pack/IconList.php:27
+msgid "Click Here to change the text."
+msgstr "Clique aqui para modificar o texto."
+
+#: plugins/Addons/Pack/Instagram.php:15
+msgid "Instagram"
+msgstr "Instagram"
+
+#: plugins/Addons/Pack/Slider.php:15
+msgid "Slider"
+msgstr "Slider"
+
+#: plugins/Addons/Pack/Video.php:15
+msgid "MP4 Video"
+msgstr "Vídeo MP4"
+
+#: plugins/Addons/Pack/Vimeo.php:15
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: plugins/Addons/Pack/Vimeo.php:26 plugins/Addons/Pack/Vimeo.php:44
+#: plugins/Addons/Social/facebook.EmbedPosts.php:26
+#: plugins/Addons/Social/facebook.EmbedPosts.php:46
+#: plugins/Addons/Social/facebook.EmbedVideo.php:26
+#: plugins/Addons/Social/facebook.EmbedVideo.php:46
+msgid "Component not available in edit mode."
+msgstr "Componente não disponível no modo de edição"
+
+#: plugins/Addons/Pack/Vine.php:15
+msgid "Vine"
+msgstr "Vine"
+
+#: plugins/Addons/Pack/YouTube.php:15
+msgid "YouTube"
+msgstr "Youtube"
+
+#: plugins/Addons/Social/Controls/LikeProperties.php:14
+#: plugins/Addons/Social/facebook.LikeButton.php:15
+msgid "Like Button"
+msgstr "Botão de Like"
+
+#: plugins/Addons/Social/Controls/LikeProperties.php:18
+msgid "Standard"
+msgstr "Padrão"
+
+#: plugins/Addons/Social/Controls/LikeProperties.php:19
+msgid "Box Count"
+msgstr "Caixa Contador"
+
+#: plugins/Addons/Social/Controls/LikeProperties.php:20
+msgid "Button Count"
+msgstr "Botão Contador"
+
+#: plugins/Addons/Social/Controls/LikeProperties.php:21
+#: plugins/Default/plg_button.php:15
+msgid "Button"
+msgstr "Botão"
+
+#: plugins/Addons/Social/Controls/LikeProperties.php:25
+msgid "Action Type"
+msgstr "Tipo de Ação"
+
+#: plugins/Addons/Social/Controls/LikeProperties.php:28
+msgid "Like"
+msgstr "Like"
+
+#: plugins/Addons/Social/Controls/LikeProperties.php:29
+msgid "Recommend"
+msgstr "Recomendado"
+
+#: plugins/Addons/Social/Controls/LikeProperties.php:35
+#: plugins/Addons/Social/Controls/PostProperties.php:22
+#: plugins/Addons/Social/Controls/VideoProperties.php:22
+msgid "Facebook Properties"
+msgstr "Propriedades do Facebook"
+
+#: plugins/Addons/Social/Controls/PostProperties.php:14
+msgid "Embedded Posts"
+msgstr "Posts Incorporados"
+
+#: plugins/Addons/Social/Controls/PostProperties.php:15
+#: plugins/Addons/Social/Controls/VideoProperties.php:15
+msgid "Url"
+msgstr "Url"
+
+#: plugins/Addons/Social/Controls/PostProperties.php:16
+#: plugins/Addons/Social/Controls/VideoProperties.php:16
+msgid "Use (http://)"
+msgstr "Use (http://)"
+
+#: plugins/Addons/Social/Controls/PostProperties.php:18
+#: plugins/Addons/Social/Controls/VideoProperties.php:18
+msgid "e.g.: 500"
+msgstr "Ex: 500"
+
+#: plugins/Addons/Social/Controls/VideoProperties.php:14
+msgid "Embedded Video"
+msgstr "Vídeo Incorporado"
+
+#: plugins/Addons/Social/facebook.EmbedPosts.php:15
+msgid "Post"
+msgstr "Post"
+
+#: plugins/Addons/Social/pinterest.PinIt.php:15
+msgid "Pin It"
+msgstr "Pin It"
+
+#: plugins/Default/Controls/Background.php:14
+#: plugins/Default/Controls/Media.php:14 plugins/Default/plg_image.php:17
+msgid "Image"
+msgstr "Imagem"
+
+#: plugins/Default/Controls/Background.php:28
+#: plugins/Default/Controls/Media.php:29
+msgid "No File"
+msgstr "Sem Arquivo"
+
+#: plugins/Default/Controls/Background.php:35
+msgid "Background Style"
+msgstr "Estilo de Background"
+
+# No translation.
+#: plugins/Default/Controls/Background.php:38
+msgid "Parallax"
+msgstr "Parallax"
+
+# No Translation
+#: plugins/Default/Controls/Background.php:39
+msgid "Cover"
+msgstr "Cover"
+
+# NO Translation
+#: plugins/Default/Controls/Background.php:40
+msgid "Normal"
+msgstr "Normal"
+
+# No Translation
+#: plugins/Default/Controls/Background.php:41
+msgid "Contain"
+msgstr "Contain"
+
+#: plugins/Default/Controls/Background.php:45
+msgid "Background Attachment"
+msgstr "Anexo de Fundo"
+
+# NO Translation
+#: plugins/Default/Controls/Background.php:48
+msgid "Scroll"
+msgstr "Scroll"
+
+# No translation
+#: plugins/Default/Controls/Background.php:49
+#: plugins/Default/Controls/Background.php:56
+msgid "Fixed"
+msgstr "Fixed"
+
+#: plugins/Default/Controls/Background.php:53
+msgid "Background Position"
+msgstr "Posição do Background"
+
+#: plugins/Default/Controls/Background.php:57
+msgid "Left Top"
+msgstr "Parte Superior Esquerda"
+
+#: plugins/Default/Controls/Background.php:58
+msgid "Left Center"
+msgstr "Centro Esquerdo"
+
+#: plugins/Default/Controls/Background.php:59
+msgid "Left Bottom"
+msgstr "Parte Inferior Esquerda"
+
+#: plugins/Default/Controls/Background.php:60
+msgid "Right Top"
+msgstr "Topo Direito"
+
+#: plugins/Default/Controls/Background.php:61
+msgid "Right Center"
+msgstr "Centro Direito"
+
+#: plugins/Default/Controls/Background.php:62
+msgid "Right Bottom"
+msgstr "Inferior Direito"
+
+#: plugins/Default/Controls/Background.php:63
+msgid "Center Top"
+msgstr "Centro Topo"
+
+#: plugins/Default/Controls/Background.php:64
+msgid "Center Center"
+msgstr "Centralizado"
+
+#: plugins/Default/Controls/Background.php:65
+msgid "Center Bottom"
+msgstr "Centro Inferior"
+
+#: plugins/Default/Controls/Background.php:69
+msgid "Background Color"
+msgstr "Cor de Fundo"
+
+#: plugins/Default/Controls/Background.php:72
+msgid "Transparent"
+msgstr "Transparente"
+
+#: plugins/Default/Controls/Background.php:73
+msgid "Simple"
+msgstr "Simples"
+
+#: plugins/Default/Controls/Background.php:74
+msgid "Gradient"
+msgstr "Gradiente"
+
+#: plugins/Default/Controls/Background.php:98
+msgid "Background"
+msgstr "Fundo"
+
+#: plugins/Default/Controls/Class.php:19
+msgid "CSS Class"
+msgstr "Classe CSS"
+
+#: plugins/Default/Controls/Editor.php:14
+#: plugins/Default/Controls/Editor.php:16
+msgid "Wordpress Editor"
+msgstr "Editor Wordpress"
+
+#: plugins/Default/Controls/Editor.php:16
+msgid "Open Wordpress Editor"
+msgstr "Abrir o Editor Wordpress"
+
+#: plugins/Default/Controls/Effects.php:20
+msgid "Special Effects"
+msgstr "Efeitos Especiais"
+
+#: plugins/Default/Controls/Effects.php:21
+msgid "Scroll down Effects"
+msgstr "Efeitos de rolagem para baixo"
+
+#: plugins/Default/Controls/Effects.php:24
+#: plugins/Default/Controls/Transform.php:142
+msgid "None"
+msgstr "Nenhujm"
+
+#: plugins/Default/Controls/Effects.php:30
+msgid "Effects"
+msgstr "Efeitos"
+
+#: plugins/Default/Controls/Fullpage.php:16
+msgid "Fullpage Settings"
+msgstr "Configurações de página cheia"
+
+#: plugins/Default/Controls/Grid.php:14
+msgid "Select the correct grid"
+msgstr "Selecione a Grid Correta"
+
+#: plugins/Default/Controls/Grid.php:16 plugins/Default/plg_row.php:27
+msgid "Column"
+msgstr "Coluna"
+
+#: plugins/Default/Controls/Grid.php:19 plugins/Default/Controls/Grid.php:22
+#: plugins/Default/Controls/Grid.php:25 plugins/Default/Controls/Grid.php:28
+#: plugins/Default/Controls/Grid.php:31 plugins/Default/Controls/Grid.php:34
+#: plugins/Default/Controls/Grid.php:37 plugins/Default/Controls/Grid.php:40
+#: plugins/Default/Controls/Grid.php:43 plugins/Default/Controls/Grid.php:46
+#: plugins/Default/Controls/Grid.php:49
+msgid "Columns"
+msgstr "Colunas"
+
+#: plugins/Default/Controls/Grid.php:54
+msgid ""
+"Choosing a smaller number of columns can remove any of the current content."
+msgstr ""
+"A escolha de um número menor de colunas pode remover qualquer conteúdo atual."
+
+#: plugins/Default/Controls/Grid.php:55
+msgid "Row Configuration"
+msgstr "Configuração da Linha"
+
+#: plugins/Default/Controls/Grid.php:57
+msgid "Max Width"
+msgstr "Largura Máxima"
+
+#: plugins/Default/Controls/Grid.php:60 plugins/Default/Controls/Grid.php:61
+msgid "full"
+msgstr "cheio"
+
+#: plugins/Default/Controls/Grid.php:61
+msgid "Full Width (100%)"
+msgstr "Largura Cheia (100%)"
+
+#: plugins/Default/Controls/Grid.php:62 plugins/Default/Controls/Media.php:43
+#: plugins/Default/Controls/Media.php:53
+#: plugins/Default/Controls/Transform.php:67
+#: plugins/Default/Controls/Transform.php:76
+msgid "Pixels"
+msgstr "Pixels"
+
+#: plugins/Default/Controls/Grid.php:62 plugins/Default/Controls/Media.php:43
+#: plugins/Default/Controls/Media.php:53
+#: plugins/Default/Controls/Transform.php:67
+#: plugins/Default/Controls/Transform.php:76
+msgid "px"
+msgstr "px"
+
+#: plugins/Default/Controls/Grid.php:63 plugins/Default/Controls/Media.php:44
+#: plugins/Default/Controls/Media.php:54
+#: plugins/Default/Controls/Transform.php:68
+#: plugins/Default/Controls/Transform.php:77
+msgid "Percents"
+msgstr "Porcentagem"
+
+#: plugins/Default/Controls/Grid.php:63 plugins/Default/Controls/Media.php:44
+#: plugins/Default/Controls/Media.php:54
+#: plugins/Default/Controls/Transform.php:68
+#: plugins/Default/Controls/Transform.php:77
+msgid "%"
+msgstr "%"
+
+#: plugins/Default/Controls/Grid.php:64
+msgid "Maximum Width (960px)"
+msgstr "Largura Máxima (960px)"
+
+#: plugins/Default/Controls/Grid.php:64 plugins/Default/Controls/Media.php:45
+#: plugins/Default/Controls/Media.php:55
+#: plugins/Default/Controls/Transform.php:69
+#: plugins/Default/Controls/Transform.php:78
+msgid "max"
+msgstr "max"
+
+# Grid is recognizable in every language, no need to translate.
+#: plugins/Default/Controls/Grid.php:67
+msgid "Grid"
+msgstr "Grid"
+
+#: plugins/Default/Controls/Hyperlink.php:15
+#: plugins/Default/Controls/Url.php:28
+msgid "Enter the destination URL"
+msgstr "Entre uma URL de destino"
+
+#: plugins/Default/Controls/Hyperlink.php:18
+#: plugins/Default/Controls/Url.php:31
+msgid "Or link to existing content"
+msgstr "Ou link para um conteúdo existente."
+
+#: plugins/Default/Controls/Hyperlink.php:22
+#: plugins/Default/Controls/Url.php:35
+msgid "Link Settings"
+msgstr "Configurações do Link"
+
+#: plugins/Default/Controls/Hyperlink.php:24
+msgid "Target"
+msgstr "Target"
+
+#: plugins/Default/Controls/Hyperlink.php:27
+msgid "Blank"
+msgstr "Blank"
+
+#: plugins/Default/Controls/Hyperlink.php:28
+msgid "Parent"
+msgstr "Parent"
+
+#: plugins/Default/Controls/Hyperlink.php:29
+msgid "Self"
+msgstr "Self"
+
+#: plugins/Default/Controls/Hyperlink.php:33
+msgid "Relationship"
+msgstr "Relacionamento"
+
+#: plugins/Default/Controls/Hyperlink.php:36
+msgid "alternate"
+msgstr "alternar"
+
+#: plugins/Default/Controls/Hyperlink.php:37
+msgid "author"
+msgstr "autor"
+
+#: plugins/Default/Controls/Hyperlink.php:38
+msgid "bookmark"
+msgstr "bookmark"
+
+#: plugins/Default/Controls/Hyperlink.php:39
+msgid "help"
+msgstr "ajuda"
+
+#: plugins/Default/Controls/Hyperlink.php:40
+msgid "license"
+msgstr "licensa"
+
+# Use abbreviation for long text.
+#: plugins/Default/Controls/Hyperlink.php:41
+msgid "next"
+msgstr "prox"
+
+#: plugins/Default/Controls/Hyperlink.php:42
+msgid "nofollow"
+msgstr "nofollow"
+
+#: plugins/Default/Controls/Hyperlink.php:43
+msgid "noreferrer"
+msgstr "noreferrer"
+
+#: plugins/Default/Controls/Hyperlink.php:44
+msgid "prefetch"
+msgstr "prefetch"
+
+# Use abbreviation for long text.
+#: plugins/Default/Controls/Hyperlink.php:45
+msgid "prev"
+msgstr "ant"
+
+#: plugins/Default/Controls/Hyperlink.php:46
+msgid "search"
+msgstr "procurar"
+
+#: plugins/Default/Controls/Hyperlink.php:47
+msgid "tag"
+msgstr "tag"
+
+#: plugins/Default/Controls/Hyperlink.php:51
+msgid "Hyperlink"
+msgstr "Link"
+
+#: plugins/Default/Controls/Media.php:36
+msgid "Alt"
+msgstr "Alt"
+
+#: plugins/Default/Controls/Media.php:37
+msgid "e.g.: Photo of a passion fruit"
+msgstr "Ex: Foto de um Maracujá."
+
+#: plugins/Default/Controls/Media.php:41 plugins/Default/Controls/Media.php:42
+#: plugins/Default/Controls/Media.php:51 plugins/Default/Controls/Media.php:52
+#: plugins/Default/Controls/Transform.php:65
+#: plugins/Default/Controls/Transform.php:66
+#: plugins/Default/Controls/Transform.php:74
+#: plugins/Default/Controls/Transform.php:75
+msgid "auto"
+msgstr "auto"
+
+#: plugins/Default/Controls/Media.php:42 plugins/Default/Controls/Media.php:52
+#: plugins/Default/Controls/Transform.php:66
+#: plugins/Default/Controls/Transform.php:75
+msgid "Auto"
+msgstr "Auto"
+
+#: plugins/Default/Controls/Media.php:45
+#: plugins/Default/Controls/Transform.php:69
+msgid "Maximum Width"
+msgstr "Largura Máxima"
+
+#: plugins/Default/Controls/Media.php:55
+#: plugins/Default/Controls/Transform.php:78
+msgid "Maximum Height"
+msgstr "Altura Máxima"
+
+#: plugins/Default/Controls/Media.php:59
+msgid "Open Image in lightbox:"
+msgstr "Abrir imagem em Lightbox"
+
+#: plugins/Default/Controls/Media.php:65
+msgid "Load images on scroll:"
+msgstr "Carrega as imagens no scroll"
+
+#: plugins/Default/Controls/Media.php:73
+msgid "Media"
+msgstr "Mídia"
+
+#: plugins/Default/Controls/Responsive.php:14
+msgid "Visibility Settings"
+msgstr "Configurações de Visibilidade"
+
+#: plugins/Default/Controls/Responsive.php:15
+msgid ""
+"Use this feature to define different style rules for different media type/"
+"devices."
+msgstr ""
+"Utilize este recurso para definir diferentes regras de estilo para "
+"dispositivos."
+
+#: plugins/Default/Controls/Responsive.php:21
+msgid "Desktop Resolution (full)"
+msgstr "Resolução Desktop (cheia)"
+
+#: plugins/Default/Controls/Responsive.php:24
+#: plugins/Default/Controls/Responsive.php:27
+#: plugins/Default/Controls/Responsive.php:30
+#: plugins/Default/Controls/Responsive.php:33
+msgid "Resolution of:"
+msgstr "Resolução de:"
+
+#: plugins/Default/Controls/Responsive.php:39
+msgid "Display area control"
+msgstr "Mostrar área de controle"
+
+#: plugins/Default/Controls/Responsive.php:45
+msgid ""
+"This is just a simple resource to show or hide elements. If you want to use "
+"a full @media feature, you can use the CSS Editor."
+msgstr ""
+"Este é apenas um simples recurso para mostrar ou esconder elementos. Se você "
+"deseja utilizar o recurso completo do @media, utilize o CSS Editor."
+
+#: plugins/Default/Controls/Responsive.php:48
+msgid "Responsive Options"
+msgstr "Opções de Responsividade"
+
+#: plugins/Default/Controls/SimpleEditor.php:14
+msgid "Text Content"
+msgstr "Conteúdo do Texto"
+
+#: plugins/Default/Controls/SimpleEditor.php:17
+#: plugins/Wordpress/WP.wtext.php:15
+msgid "Text"
+msgstr "Texto"
+
+#: plugins/Default/Controls/Transform.php:14
+msgid "Display Settings"
+msgstr "Configurações de Visualização"
+
+#: plugins/Default/Controls/Transform.php:16
+msgid "Block"
+msgstr "Block"
+
+#: plugins/Default/Controls/Transform.php:21
+msgid "Inline Block"
+msgstr "Inline Block"
+
+#: plugins/Default/Controls/Transform.php:26
+msgid "Inline"
+msgstr "Inline"
+
+#: plugins/Default/Controls/Transform.php:31
+msgid "Flex"
+msgstr "Flex"
+
+#: plugins/Default/Controls/Transform.php:36
+msgid "Hide"
+msgstr "Esconder"
+
+#: plugins/Default/Controls/Transform.php:43
+msgid "Padding and Margin"
+msgstr "Preenchimento e Margem"
+
+#: plugins/Default/Controls/Transform.php:47
+msgid "Margin Top"
+msgstr "Margem Topo"
+
+#: plugins/Default/Controls/Transform.php:47
+msgid "margin"
+msgstr "margem"
+
+#: plugins/Default/Controls/Transform.php:48
+msgid "Margin Bottom"
+msgstr "Margem Inferior"
+
+#: plugins/Default/Controls/Transform.php:49
+msgid "Margin Left"
+msgstr "Margem Esquerda"
+
+#: plugins/Default/Controls/Transform.php:50
+msgid "Margin Right"
+msgstr "Margem Direita"
+
+#: plugins/Default/Controls/Transform.php:52
+msgid "Padding Top"
+msgstr "Espaçamento Topo"
+
+#: plugins/Default/Controls/Transform.php:52
+msgid "padding"
+msgstr "espaçamento"
+
+#: plugins/Default/Controls/Transform.php:53
+msgid "Padding Bottom"
+msgstr "Espaçamento Inferior"
+
+#: plugins/Default/Controls/Transform.php:54
+msgid "Padding Left"
+msgstr "Espaçamento Esquerdo"
+
+#: plugins/Default/Controls/Transform.php:55
+msgid "Padding Right"
+msgstr "Espaçamento Direito"
+
+#: plugins/Default/Controls/Transform.php:60
+msgid "Size and Alignment"
+msgstr "Tamanho e Alinhamento"
+
+#: plugins/Default/Controls/Transform.php:82
+msgid "Alignment"
+msgstr "Alinhamento"
+
+#: plugins/Default/Controls/Transform.php:92
+msgid "Border Settings and Style"
+msgstr "Configurações da Borda e Estilo"
+
+#: plugins/Default/Controls/Transform.php:94
+msgid "Border Size"
+msgstr "Tamanho da Borda"
+
+#: plugins/Default/Controls/Transform.php:102
+msgid "Border Radius"
+msgstr "Raio da Borda"
+
+#: plugins/Default/Controls/Transform.php:112
+msgid "Border Radius Format:"
+msgstr "Formato do Raio da Borda"
+
+#: plugins/Default/Controls/Transform.php:119
+msgid "Border Color"
+msgstr "Cor da Borda"
+
+#: plugins/Default/Controls/Transform.php:125
+msgid "Border Type"
+msgstr "Tipo da Borda"
+
+#: plugins/Default/Controls/Transform.php:132
+msgid "Dashed"
+msgstr "Tracejada"
+
+#: plugins/Default/Controls/Transform.php:137
+msgid "Dotted"
+msgstr "Pontilhada"
+
+#: plugins/Default/Controls/Transform.php:147
+msgid "Reset All Values"
+msgstr "Resetar todos os valores"
+
+#: plugins/Default/Controls/Transform.php:154
+msgid "Design"
+msgstr "Design"
+
+#: plugins/Default/Controls/Typography.php:16
+msgid "Font Presentation"
+msgstr ""
+
+#: plugins/Default/Controls/Typography.php:19
+#: plugins/Default/Controls/Typography.php:20
+#: plugins/Default/Controls/Typography.php:21
+#: plugins/Default/Controls/Typography.php:22
+#: plugins/Default/Controls/Typography.php:23
+#: plugins/Default/Controls/Typography.php:24
+#: plugins/Default/plg_heading.php:15
+msgid "Heading"
+msgstr "Cabeçalho"
+
+#: plugins/Default/Controls/Typography.php:28
+#: plugins/Default/Controls/Typography.php:94
+msgid "Font Style"
+msgstr "Estilo da Fonte"
+
+#: plugins/Default/Controls/Typography.php:52
+msgid "Line Spacing"
+msgstr "Espaçamento da Linha"
+
+#: plugins/Default/Controls/Typography.php:62
+msgid "Word Spacing"
+msgstr "Espaçamento de Palavra"
+
+#: plugins/Default/Controls/Typography.php:78
+msgid "Letter Spacing"
+msgstr "Espaçamento de Letras"
+
+#: plugins/Default/Controls/Typography.php:96
+msgid "Bold"
+msgstr "Negrito"
+
+#: plugins/Default/Controls/Typography.php:101
+msgid "Italic"
+msgstr "Itálico"
+
+#: plugins/Default/Controls/Typography.php:106
+msgid "Underline"
+msgstr "Sublinhado"
+
+#: plugins/Default/Controls/Typography.php:111
+msgid "Line Through"
+msgstr "Linha Cortada"
+
+#: plugins/Default/Controls/Typography.php:144
+msgid "Typography"
+msgstr "Tipografia"
+
+#: plugins/Default/Controls/Url.php:39
+msgid "Opens the linked document in the same frame as it was clicked"
+msgstr "Abre o link do documento no mesmo frame."
+
+#: plugins/Default/Controls/Url.php:44
+msgid "Opens the linked document in a new window or tab"
+msgstr "Abre o link do documento em uma nova janela ou tabela."
+
+#: plugins/Default/Controls/Url.php:50
+msgid "Link Colors"
+msgstr "Cor do link"
+
+#: plugins/Default/Controls/Url.php:63
+msgid "Reverse Button Colors:"
+msgstr "Reverter cores do botão"
+
+#: plugins/Default/Controls/Url.php:71
+msgid "URL"
+msgstr "URL"
+
+#: plugins/Default/plg_button.php:22
+msgid "See More..."
+msgstr "Veja Mais..."
+
+#: plugins/Default/plg_heading.php:22
+msgid "Enter your text"
+msgstr "Entre com o texto"
+
+#: plugins/Default/plg_hr.php:15
+msgid "Line"
+msgstr "Linha"
+
+#: plugins/Default/plg_html.php:15
+msgid "HTML"
+msgstr "HTML"
+
+#: plugins/Default/plg_html.php:23
+msgid "Open this element on the html editor"
+msgstr "Abra este elemento no editor HTML"
+
+#: plugins/Default/plg_image.php:25
+msgid "Eg: Photo of a black and white desert."
+msgstr "Ex. Foto de um deserto em preto e branco"
+
+#: plugins/Default/plg_paragraph.php:15
+msgid "Paragraph"
+msgstr "Parágrafo"
+
+#: plugins/Default/plg_paragraph.php:22
+msgid ""
+"The noise had brought Dejah Thoris to the door of her apartment, and there "
+"she stood throughout the conflict with Sola at her back peering over her "
+"shoulder.  Her face was set and emotionless and I knew that she did not "
+"recognize me, nor did Sola."
+msgstr ""
+"O ruído tinha levado Dejah Thoris à porta de seu apartamento, e lá estava "
+"ela durante todo o conflito, com sola a sua volta olhando por sobre seu "
+"ombro. Seu rosto estava fixo e sem emoção e eu sabia que ela não me "
+"reconhecia, nem Sola."
+
+#: plugins/Default/plg_row.php:15
+msgid "Row"
+msgstr "Linha"
+
+#: plugins/Default/plg_row.php:36
+msgid "Fullpage"
+msgstr "Página Completa"
+
+#: plugins/Default/plg_rowcolx2.php:15
+msgid "Col x 2"
+msgstr "Col x 2"
+
+#: plugins/Default/plg_rowcolx3.php:15
+msgid "Col x 3"
+msgstr "Col x 3"
+
+#: plugins/Default/plg_shortcode.php:15
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: plugins/Default/plg_shortcode.php:27 plugins/Default/plg_shortcode.php:71
+msgid "This shortcode will be rendered when you reload :)."
+msgstr "Este shortcode será renderizado quando você recarregar :)."
+
+#: plugins/Default/plg_shortcode.php:55
+msgid "Any change will only be rendered after the page reload."
+msgstr "Qualquer mudança será apenas renderizada após o reload da página."
+
+#: plugins/Predefined/Codes/Snippet01.php:15
+#: plugins/Predefined/Codes/Snippet02.php:15
+#: plugins/Predefined/Codes/Snippet03.php:15
+#: plugins/Predefined/Codes/Snippet04.php:15
+#: plugins/Predefined/Codes/Snippet05.php:15
+#: plugins/Predefined/Codes/Snippet06.php:15
+#: plugins/Predefined/Codes/Snippet07.php:15
+#: plugins/Predefined/Codes/Snippet08.php:15
+#: plugins/Predefined/Codes/Snippet09.php:15
+msgid "Snippet"
+msgstr "Pré-definido"
+
+#: plugins/Wordpress/WP.Archives.php:15
+msgid "Archives"
+msgstr "Arquivos"
+
+#: plugins/Wordpress/WP.Calendar.php:15
+msgid "Calendar"
+msgstr "Calendário"
+
+#: plugins/Wordpress/WP.Categories.php:15
+msgid "Categories"
+msgstr "Categorias"
+
+#: plugins/Wordpress/WP.Comments.php:15
+msgid "Comments"
+msgstr "Comentários"
+
+#: plugins/Wordpress/WP.Links.php:15
+msgid "Links"
+msgstr "Links"
+
+#: plugins/Wordpress/WP.Pages.php:15
+msgid "Pages"
+msgstr "Páginas"
+
+#: plugins/Wordpress/WP.Posts.php:15
+msgid "Posts"
+msgstr "Posts"
+
+#: plugins/Wordpress/WP.navmenu.php:15
+msgid "Nav Menu"
+msgstr "Nav Menu"
+
+#: plugins/Wordpress/WP.rss.php:15
+msgid "RSS"
+msgstr "RSS"
+
+#: plugins/Wordpress/WP.search.php:15
+msgid "Search"
+msgstr "Busca"
+
+#: plugins/Wordpress/WP.tagcloud.php:15
+msgid "Tag Cloud"
+msgstr "Nuvem de Tags"
+
+#~ msgid "Update the page to copy all content and style of the selected page."
+#~ msgstr ""
+#~ "Atualize a página para copiar todos os estilos e conteúdo da página "
+#~ "selecionada."
+
+#~ msgid ""
+#~ "Please consider registering the %s plugin. You will always have access to "
+#~ "all updates and also our support. Please %s"
+#~ msgstr ""
+#~ "Por favor, considere registrar o plugin %s. Você sempre terá acesso a "
+#~ "todos os updates e também ao nosso suporte. Por favor %s"
+
+#~ msgid "Enter Purchase Code"
+#~ msgstr "Insira o código de compra"
+
+#~ msgid "1."
+#~ msgstr "1."
+
+#~ msgid ""
+#~ "First, click the button below, go to the corresponding address and get "
+#~ "the product to make a purchase you will receive a code, copy it and go to "
+#~ "step 2."
+#~ msgstr ""
+#~ "Primeiro, clique no botão abaixo, vá para o endereço correspondente e "
+#~ "realize a compra do produto, você irá receber um código de compra, copie "
+#~ "este código e siga para o passo 2."
+
+#~ msgid "Purchase %s"
+#~ msgstr "Comprar %s"
+
+#~ msgid "2."
+#~ msgstr "2."
